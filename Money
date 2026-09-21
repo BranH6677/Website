@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>About Brandon Haro</title>
+
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        background-color: #f2f2f2;
+        color: #222;
+      }
+
+      header {
+        background-color: #1b5e20;
+        color: white;
+        text-align: center;
+        padding: 40px 20px;
+      }
+
+      header h1 {
+        margin: 0;
+        font-size: 40px;
+      }
+
+      header p {
+        font-size: 18px;
+      }
+
+      section {
+        background-color: white;
+        max-width: 800px;
+        margin: 25px auto;
+        padding: 30px;
+        border-radius: 10px;
+      }
+
+      h2 {
+        color: #1b5e20;
+      }
+
+      ul {
+        line-height: 2;
+      }
+
+      .goal {
+        background-color: #e8f5e9;
+        padding: 20px;
+        border-left: 5px solid #1b5e20;
+      }
+
+      .pictures {
+        display: flex;
+        gap: 15px;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 20px;
+      }
+
+      .pictures img {
+        width: 240px;
+        height: 170px;
+        object-fit: cover;
+        border-radius: 10px;
+      }
+
+      .picture-title {
+        text-align: center;
+        font-size: 14px;
+        margin-top: 5px;
+      }
+
+      .picture-box {
+        text-align: center;
+      }
+
+      .button-container {
+        text-align: center;
+        margin: 30px;
+      }
+
+      .button {
+        background-color: #1b5e20;
+        color: white;
+        padding: 15px 25px;
+        text-decoration: none;
+        border-radius: 8px;
+        font-size: 18px;
+      }
+
+      .button:hover {
+        background-color: #2e7d32;
+      }
+
+      footer {
+        text-align: center;
+        background-color: #1b5e20;
+        color: white;
+        padding: 20px;
+        margin-top: 30px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>Brandon Haro</h1>
+      <p>About Me</p>
+    </header>
+
+    <section>
+      <h2>About Me</h2>
+
+      <p>
+        My name is Brandon Haro. I am a student who enjoys sports, playing video
+        games, and hanging out with my friends.
+      </p>
+
+      <p>
+        I like staying active and spending time with the people who are
+        important to me. I also enjoy learning new things and thinking about my
+        future.
+      </p>
+    </section>
+
+    <section>
+      <h2>My Interests</h2>
+
+      <ul>
+        <li>Soccer</li>
+        <li>Sports</li>
+        <li>Video Games</li>
+        <li>Hanging out with friends</li>
+      </ul>
+
+      <div class="pictures">
+        <div class="picture-box">
+          <img
+            src="https://images.unsplash.com/photo-1579952363873-27f3bade9f55"
+            alt="Soccer"
+          />
+          <p class="picture-title">Soccer</p>
+        </div>
+
+        <div class="picture-box">
+          <img
+            src="https://images.unsplash.com/photo-1605901309584-818e25960a8f"
+            alt="Video games"
+          />
+          <p class="picture-title">Video Games</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>My Future Goal</h2>
+
+      <div class="goal">
+        <p>
+          After high school, I plan to go to college and earn my bachelor's
+          degree in Construction Management.
+        </p>
+
+        <p>
+          I want to build a successful career in construction and learn how to
+          manage construction projects.
+        </p>
+      </div>
+
+      <div class="pictures">
+        <div class="picture-box">
+          <img
+            src="https://images.unsplash.com/photo-1504307651254-35680f356dfd"
+            alt="Construction site"
+          />
+          <p class="picture-title">Construction Management</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>My Future</h2>
+
+      <p>
+        I want to work hard in college, learn new skills, and prepare myself for
+        a successful career. My goal is to use my education to become a
+        construction management professional.
+      </p>
+    </section>
+
+    <div class="button-container">
+      <a class="button" href="money.html">Go to My Obsession</a>
+    </div>
+
+    <footer>
+      <p>© 2026 Brandon Haro</p>
+    </footer>
+  </body>
+</html>
