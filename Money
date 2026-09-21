@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>My Obsession - Money</title>
+
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        background-color: #f2f2f2;
+        color: #222;
+      }
+
+      header {
+        background-color: #1b5e20;
+        color: white;
+        text-align: center;
+        padding: 40px 20px;
+      }
+
+      header h1 {
+        margin: 0;
+        font-size: 40px;
+      }
+
+      header p {
+        font-size: 18px;
+      }
+
+      section {
+        background-color: white;
+        max-width: 800px;
+        margin: 25px auto;
+        padding: 30px;
+        border-radius: 10px;
+      }
+
+      h2 {
+        color: #1b5e20;
+      }
+
+      ul {
+        line-height: 2;
+      }
+
+      .money-box {
+        background-color: #e8f5e9;
+        padding: 20px;
+        border-left: 5px solid #1b5e20;
+      }
+
+      .pictures {
+        display: flex;
+        gap: 15px;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 20px;
+      }
+
+      .pictures img {
+        width: 240px;
+        height: 170px;
+        object-fit: cover;
+        border-radius: 10px;
+      }
+
+      .button-container {
+        text-align: center;
+        margin: 30px;
+      }
+
+      .button {
+        display: inline-block;
+        background-color: #1b5e20;
+        color: white;
+        padding: 15px 25px;
+        text-decoration: none;
+        border-radius: 8px;
+        font-size: 18px;
+        margin: 5px 10px;
+      }
+
+      .button:hover {
+        background-color: #2e7d32;
+      }
+
+      footer {
+        text-align: center;
+        background-color: #1b5e20;
+        color: white;
+        padding: 20px;
+        margin-top: 30px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>My Obsession: Money</h1>
+      <p>Why money interests me</p>
+    </header>
+
+    <section>
+      <h2>Why I Like Money</h2>
+
+      <p>
+        One of my biggest interests is money. I like learning about different
+        ways people earn money, save money, and become successful.
+      </p>
+
+      <p>
+        Money interests me because it can create more opportunities and help
+        people reach important goals in life.
+      </p>
+
+      <div class="pictures">
+        <img
+          src="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c"
+          alt="Money and finances"
+        />
+
+        <img
+          src="https://images.unsplash.com/photo-1579621970795-87facc2f976d"
+          alt="Saving money"
+        />
+
+        <img
+          src="https://images.unsplash.com/photo-1563013544-824ae1b704d3"
+          alt="Financial planning"
+        />
+      </div>
+    </section>
+
+    <section>
+      <h2>What Interests Me About Money</h2>
+
+      <ul>
+        <li>Saving money</li>
+        <li>Making money</li>
+        <li>Learning about investing</li>
+        <li>Building a successful career</li>
+        <li>Becoming financially independent</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Money and My Future</h2>
+
+      <div class="money-box">
+        <p>
+          In the future, I want to have a successful career in Construction
+          Management and earn enough money to live comfortably.
+        </p>
+
+        <p>
+          I also want to learn how to manage my money correctly, save for the
+          future, and make smart financial decisions.
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Why It Motivates Me</h2>
+
+      <p>
+        Money motivates me to work hard and think about my future. I know that
+        becoming successful takes education, responsibility, and patience. My
+        goal is not only to make money, but also to learn how to use it wisely.
+      </p>
+    </section>
+
+    <div class="button-container">
+      <a class="button" href="index.html">Previous Page</a>
+      <a class="button" href="page3.html">Next Page</a>
+    </div>
+
+    <footer>
+      <p>© 2026 Brandon Haro</p>
+    </footer>
+  </body>
+</html>
